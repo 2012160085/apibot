@@ -1,0 +1,12 @@
+{ "apiurl" : "http://openapi.molit.go.kr/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTradeDev"
+  ,"apikey" : "ocqOQQxx+BP7nrH/I+62itxqJSnTVI9t0Rbqdn31D2QQCUKHfafZscAsFDV5oJKzi+9T5DWnxm26/WzzL3jzGQ=="
+  ,"retry" : "5"
+  ,"range_from" : "11111"
+  ,"range_to" : "20000"
+  ,"db_url" : "aug18th.com/db"
+  ,"db_usr" : "zg"
+  ,"db_pwd" : "zg1234!"
+  ,"joblogdir" : "jobs.log"
+  ,"logdir" : "info.log"
+}
+  
