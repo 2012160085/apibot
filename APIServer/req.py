@@ -48,7 +48,7 @@ class RequestWorker:
         return res
     def res_value(self,pnum,lawd_cd,deal_ymd):
         res = self.get_response(pnum,lawd_cd,deal_ymd)
-        for rt in range(int(self.retry)):
+        for _ in range(int(self.retry)):
             if res.status_code == 200:
                 break
             else:
